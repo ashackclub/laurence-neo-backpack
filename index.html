@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NOVA-01 | Future Carry</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <nav class="navbar" aria-label="Main navigation">
+      <a class="brand" href="#"><span class="brand-mark">N</span> NOVA<span class="brand-dot">.</span></a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#specs">Specs</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <a class="nav-button" href="#features">Explore <span>↗</span></a>
+    </nav>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> The next everyday carry</p>
+        <h1 id="hero-title">Carry the<br /><em>future.</em></h1>
+        <p class="intro">Meet NOVA-01 — a weatherproof smart pack engineered for the city, the commute, and everywhere beyond.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#specs">Discover NOVA-01 <span>→</span></a>
+          <a class="play-link" href="#features"><span class="play-icon">▶</span> See it in motion</a>
+        </div>
+        <div class="stats" id="specs">
+          <div><strong>24L</strong><span>Adaptive space</span></div>
+          <div><strong>IP68</strong><span>All-weather shell</span></div>
+          <div><strong>01</strong><span>Iconic silhouette</span></div>
+        </div>
+      </div>
+
+      <div class="product-stage" aria-label="Illustration of the NOVA-01 futuristic backpack">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="stage-label label-top">N-01 / 2024</div>
+        <div class="stage-label label-bottom">Designed for <b>tomorrow</b></div>
+        <div class="glow"></div>
+        <svg class="backpack" viewBox="0 0 500 590" role="img" aria-labelledby="bag-title bag-desc">
+          <title id="bag-title">NOVA-01 futuristic backpack</title>
+          <desc id="bag-desc">A sleek graphite backpack with glowing cyan details and a solar charging panel.</desc>
+          <defs>
+            <linearGradient id="bagBody" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0" stop-color="#303941"/><stop offset=".48" stop-color="#11191e"/><stop offset="1" stop-color="#070b0e"/>
+            </linearGradient>
+            <linearGradient id="bagSide" x1="0" x2="1"><stop stop-color="#0a1014"/><stop offset="1" stop-color="#243038"/></linearGradient>
+            <linearGradient id="neon" x1="0" x2="1"><stop stop-color="#00eaff"/><stop offset="1" stop-color="#7effd8"/></linearGradient>
+            <filter id="shadow"><feGaussianBlur stdDeviation="14"/></filter>
+            <filter id="cyanGlow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            <clipPath id="panelClip"><path d="M174 177 Q250 148 326 177 L335 300 Q250 327 165 300Z"/></clipPath>
+          </defs>
+          <ellipse cx="250" cy="542" rx="155" ry="18" fill="#00ddeb" opacity=".22" filter="url(#shadow)"/>
+          <path d="M137 188 Q139 117 250 99 Q361 117 363 188 L389 442 Q388 505 326 524 Q250 550 174 524 Q112 505 111 442Z" fill="url(#bagBody)" stroke="#4a5b63" stroke-width="3"/>
+          <path d="M137 189 Q157 226 165 300 L153 470 Q145 502 112 490 L101 281 Q104 217 137 189Z" fill="url(#bagSide)" stroke="#3c4c53" stroke-width="2"/>
+          <path d="M363 189 Q343 226 335 300 L347 470 Q355 502 388 490 L399 281 Q396 217 363 189Z" fill="url(#bagSide)" stroke="#3c4c53" stroke-width="2"/>
+          <path d="M168 174 Q250 144 332 174 L342 301 Q250 335 158 301Z" fill="#101a20" stroke="#73838a" stroke-width="3"/>
+          <g clip-path="url(#panelClip)" opacity=".8">
+            <path d="M160 205H339M158 239H342M158 273H342M190 159L176 314M225 153L218 320M260 150L260 320M295 154L302 314M330 164L342 306" stroke="#3c5d66" stroke-width="2"/>
+          </g>
+          <path d="M174 177 Q250 148 326 177 L335 300 Q250 327 165 300Z" fill="none" stroke="#00dcea" stroke-width="2" filter="url(#cyanGlow)"/>
+          <path d="M184 333 Q250 354 316 333 L325 438 Q250 466 175 438Z" fill="#0a1115" stroke="#35464d" stroke-width="2"/>
+          <path d="M203 361 Q250 373 297 361 L300 416 Q250 430 200 416Z" fill="#17242a" stroke="#53656b"/>
+          <path d="M205 379 H295" stroke="url(#neon)" stroke-width="3" filter="url(#cyanGlow)"/>
+          <path d="M250 101V72M236 71H264" stroke="#8eabb1" stroke-width="7" stroke-linecap="round"/>
+          <path d="M145 205 Q122 280 143 419M355 205 Q378 280 357 419" fill="none" stroke="#00eaff" stroke-width="4" opacity=".9" filter="url(#cyanGlow)"/>
+          <path d="M173 500 Q250 524 327 500" fill="none" stroke="#00ddeb" stroke-width="3" opacity=".8"/>
+          <circle cx="250" cy="331" r="4" fill="#8ffff0" filter="url(#cyanGlow)"/>
+        </svg>
+        <div class="side-note"><span class="line"></span><span>Intelligent<br />by design</span></div>
+      </div>
+    </section>
+
+    <section class="feature-strip" id="features">
+      <div class="feature-heading"><span>01</span><p>Engineered<br />to move.</p></div>
+      <div class="feature"><span class="feature-icon">◈</span><div><h3>Smart shell</h3><p>Lightweight protection with a carbon-weave core.</p></div></div>
+      <div class="feature"><span class="feature-icon">⌁</span><div><h3>Power on demand</h3><p>Integrated USB-C power bank for the long haul.</p></div></div>
+      <div class="feature"><span class="feature-icon">✧</span><div><h3>Quietly iconic</h3><p>Minimal form. Maximum presence. Zero compromise.</p></div></div>
+    </section>
+
+    <footer id="contact"><span>© 2024 NOVA SYSTEMS</span><span>Built for the next move <b>●</b></span></footer>
+  </main>
+</body>
+</html>
